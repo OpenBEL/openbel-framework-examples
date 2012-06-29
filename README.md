@@ -2,7 +2,7 @@ Examples for the OpenBEL Framework
 ==========================
 
 ## Java API
-Contained within the [java-api](https://github.com/OpenBEL/openbel-framework-examples/tree/master/java-api) directory are examples that work directly against the native Java APIs.
+Contained within the [java-api](java-api) directory are examples that work directly against the native Java APIs.
 
 
 ## Web API
