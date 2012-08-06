@@ -9,6 +9,6 @@ Contained within the java-api directory are examples that work directly against 
   In the web-api directory are examples that work over the SOAP based web API.
 
 These examples are avialable in the following languages
-* [Java](web-api/java)
-* [Perl](web-api/perl)
-* [Python](web-api/python)
+* [Java](openbel-framework-examples/web-api/java)
+* [Perl](openbel-framework-examples/web-api/perl)
+* [Python](openbel-framework-examples/web-api/python)
