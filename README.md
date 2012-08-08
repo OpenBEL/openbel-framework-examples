@@ -10,5 +10,5 @@ Contained within the java-api directory are examples that work directly against 
 
 These examples are avialable in the following languages
 * [Java](github.com/OpenBEL/openbel-framework-examples/tree/master/web-api/java)
-* [Perl](openbel-framework-examples/web-api/perl)
-* [Python](openbel-framework-examples/web-api/python)
+* [Perl](https://github.com/OpenBEL/openbel-framework-examples/tree/master/web-api/perl)
+* [Python](https://github.com/OpenBEL/openbel-framework-examples/tree/master/web-api/python)
