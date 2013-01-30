@@ -84,7 +84,7 @@ if __name__ == '__main__':
     # unpack command-line arguments; except the first script name argument
     (kam_name, source, rel, target) = argv[1:]
 
-    client = WS('http://localhost:10000/openbel-ws/belframework.wsdl')
+    client = WS('http://localhost:8080/openbel-ws/belframework.wsdl')
     handle = load_kam(client, kam_name)
     print "loaded kam '%s', handle '%s'" % (kam_name, handle.handle)
 
