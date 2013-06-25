@@ -112,10 +112,12 @@ if __name__ == '__main__':
         # print BEL, citation, and annotations for each statement
         for s in statements:
             print_statement(s)
-            print_citation(s.citation)
-            annotations = s.annotations
-            for a in annotations:
-                print_annotation(a)
+            if hasattr(s, 'citation'):
+                print_citation(s.citation)
+            if hasattr(s, 'annotations'):
+                annotations = s.annotations
+                for a in annotations:
+                    print_annotation(a)
     else:
         print "edge not found"
 
