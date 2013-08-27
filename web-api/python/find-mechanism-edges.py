@@ -69,4 +69,5 @@ if __name__ == '__main__':
             src = edge.source.label
             tgt = edge.target.label
             csvw.writerow([src, edge.relationship, tgt])
+            stdout.flush()
     exit_success()
